@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --color-brand-navy: #12284C;
+  --color-brand-gold: #C8A24A;
+  --color-brand-gold-hover: #B68E37;
+  --color-brand-dark: #0A1629;
+  --color-brand-surface: #F8F9FB;
+}
+
+/* Custom scrollbar and smooth behaviors */
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3, .font-display {
+  font-family: var(--font-serif);
+}
+
+/* Print styles for property flyers */
+@media print {
+  header, footer, .floating-actions, .no-print {
+    display: none !important;
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "USA Real Estate Team at LPT Realty",
+  "description": "Long Island's premier real estate team under LPT Realty, providing expert home buying, selling, property valuation, and local neighborhood guidance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
